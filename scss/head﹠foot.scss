@@ -1,0 +1,125 @@
+header .flex-up {
+    height: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+  
+    .button {
+      @include button();
+      padding: 7px 10px 10px 10px;
+  
+    }
+  
+  }
+  
+  .h-2 {
+    @include ocean();
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+     
+    .hero {
+      font-weight: 100;
+      font-size: xx-large;
+      color: white;
+      text-align: center;
+      margin: 0px 100px 0px 100px;
+      padding: 40px;
+  
+      
+    }
+  
+    .signup {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px; 
+    }
+
+    #email {
+    width: 500px;
+    border: 1px solid #ccc;
+    height: 40px;
+    border-radius: 4px;
+    font-size: larger;
+    font-style: solid black; 
+    } 
+
+    .button {
+    @include button();
+      padding: 10px 50px 10px 50px;
+    }
+
+  }
+  .h-3 {
+    @include ocean();
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .hero {
+      font-weight: 100;
+      font-size: large;
+      color: white;
+      text-align: center;
+      margin: 0px 100px 0px 100px;
+      padding: 20px;
+      
+    }
+    
+    .signup {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+      
+      
+      }
+  
+      #email {
+      width: 500px;
+      border: 1px solid #ccc;
+      height: 40px;
+      border-radius: 4px;
+      font-size: larger;
+      color: solid black; 
+      } 
+  
+      .button {
+      @include button();
+        padding: 10px 50px 10px 50px;
+      }
+  
+  }
+
+  .footer {
+    height: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none !important;
+      
+    nav .a {
+      text-decoration: none;
+      gap: 10px;
+    }
+    .social {
+      text-decoration: none;
+    }
+
+   
+
+  
+  
+    
+  
+  }
+
+ 

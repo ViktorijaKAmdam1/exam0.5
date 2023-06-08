@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1200px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+// icons colour: #335EF0   
+
+$main1: url(/bg-showcase-1.jpg);
+$profile1: url("../app/images/testimonials-1.jpg");
+$profile2: url("../app/images/testimonials-2.jpg");
+$profile3: url("../app/images/testimonials-3.jpg");
+
+
+@mixin ocean {  
+  background-image: url(/bg-masthead.jpg); 
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+}
+
+
+@mixin button {
+  text-decoration: none;
+  background-color: #027bff;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+@mixin paragraph {
+  font-weight: 100;
+}
